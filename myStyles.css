@@ -253,7 +253,7 @@
 
     .projectButton{
 
-      width: 120px;
+      width: 170px;
       height: 40px;
       border: solid 3px #f93;
       margin-top: 20px;
@@ -261,6 +261,23 @@
       padding-top: 5px;
       font-size: 16px;
       box-shadow: 1px 1px 3px #888888;
+      transition: all 0.3s ease 0s;
+    }
+
+    .projectButton:hover{
+      background-color: #f63;
+      border: solid 3px #666;
+      color: white;
+    }
+
+    .projectButton a{
+      color: #666;
+      text-decoration: none;
+    }
+
+    .projectButton a:hover{
+      color: white;
+      text-decoration: none;
     }
 
     #row1{
@@ -270,7 +287,170 @@
       margin-top : 50px;
       box-shadow: 1px 1px 3px #eee;
     }
+
+    .projectTop{
+      
+    }
     .projectHeader{
     	padding: 100px 0;
+      color: #f63;
+    }
+
+    .challenge{
+      
+    }
+
+    .challengeHeading{
+      padding-top: 30px;
+    }
+
+    /* .headerBackground{
+      background-color: #666;
+
+    } */
+    .headerBackground h2{
+      color: #f63;
+    }
+    .row p{
+      display: block;
+      font-size: 18px;
+      line-height:32px;
+      color: #666;
+      word-wrap: break-word;
+      word-spacing: 3px;
+    }
+
+    .border-right{
+      border-right: 1px solid #ddd;
+    }
+
+    .challenge li{
+      font-size: 18px;
+      line-height:32px;
+      color: #666;
+      word-wrap: break-word;
+      word-spacing: 3px;
+    }
+
+    .approach{
+      padding-top: 30px;
+    }
+
+    .business{
+      text-align: center;
+    }
+    .business h3{
+      padding-top: 30px;
+      padding-bottom: 20px;
+    }
+
+    .business img{
+     display: block;
+    margin-left: auto;
+    margin-right: auto }
+    }
+
+
+    .business li{
+      font-size: 18px;
+      color: #666;
+      line-height:32px;
+      word-wrap: break-word;
+      word-spacing: 3px;
+
+    }
+    
+    .business h3{
+      color: black;
+    }
+    .competitive{
+      padding: 30px 0;
+    }
+
+    .competitive li{
+      font-size: 18px;
+      line-height:32px;
+      color: #666;
+      word-wrap: break-word;
+      word-spacing: 3px;
+    }
+
+    .competitiveContent li{
+      font-size: 18px;
+      line-height:32px;
+      color: #666;
+      word-wrap: break-word;
+      word-spacing: 3px;
+    }
+    .persona{
+      padding: 30px;
+    }
+
+    .uxVision li{
+       font-size: 18px;
+      line-height:32px;
+      color: #666;
+      word-wrap: break-word;
+      word-spacing: 3px;
+
+    }
+
+    .design{
+      padding: 30px 0;
+    }
+
+    .wireframeHeading{
+      padding: 30px 0;
+    }
+
+    .wireframe{
+      
+    }
+    
+    .testingHeading{
+      
+    }
+    .testing{
+      }
+
+    .testing p{
+      padding-top: 30px;
+      display: block;
+      font-size: 18px;
+      line-height:32px;
+      color: #666;
+      word-wrap: break-word;
+      word-spacing: 3px;
+    }
+
+    
+    .prototypeHeading{
+      padding: 30px 0;
+    }
+
+    .interviewContent img{
+      padding-top: 20px;
+    }
+
+    .interviewContent p{
+      padding-top: 20px;
+    }
+
+    .userJourney p{
+      padding-top: 20px;
+    }
+
+    .userJourney img{
+      padding-top: 20px;
+    }
+
+    .userGoalsContent{
+      text-align: center;
+    }
+
+    .userGoalsContent img{
+     display: block;
+    margin-left: auto;
+    margin-right: auto }
     }
 
