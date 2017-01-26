@@ -19,316 +19,16 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>   
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <!--<link href="css/myStyles.css">-->
-    <style>
 
-    body,
-    html {
-    width: 100%;
-    height: 100%;
-    }
-
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    }
-
-    .topnav {
-        font-size: 14px; 
-    }
+    <link rel="stylesheet" type="text/css" href="myStyles.css">
     
-    nav{
-
-      font-family: Lato;
-    }
-
-    .navbar-default{
-      background-color: #f63;
-      opacity: 0.8;
-    }
-    .navbar-default .navbar-nav>li>a{
-      color: white;
-    }
-
-    .navbar-default .navbar-brand{
-      color: white;
-      font-size: 20px;
-    }
-    .navbar-default .navbar-nav>li>a:hover {
-      color: black;
-      background-color: transparent;
-    }
-    
-    .content-section-a {
-      padding: 50px 0;
-      background-color: #f8f8f8;
-    }
-
-    .intro-header {
-      padding-top: 50px;
-      padding-bottom: 50px;
-      text-align: center;
-      color: #f8f8f8;
-      background: url(images/Ro-Intro.jpg) no-repeat center center;
-      background-size: cover;
-    }
-
-    .intro-message {
-      position: relative;
-      padding-top: 20%;
-      padding-bottom: 20%;
-    }
-
-    .intro-message > h1 {
-      margin: 0;
-      text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-      font-size: 5em;
-    }
-
-
-    .intro-divider {
-        width: 400px;
-        border-top: 1px solid #f8f8f8;
-        border-bottom: 1px solid rgba(0,0,0,0.2);
-    }
-
-    .intro-message > h3 {
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    }
-
-    @media(max-width:767px) {
-    .intro-message {
-        padding-bottom: 15%;
-    }
-
-    .intro-message > h1 {
-        font-size: 3em;
-    }
-
-    ul.intro-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.intro-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-
-    .intro-divider {
-        width: 100%;
-    }
-    }
-
-    .network-name {
-        text-transform: uppercase;
-        font-size: 14px;
-        font-weight: 400;
-        letter-spacing: 2px;
-    }
-
-    .content-section-a {
-        padding: 50px 0;
-        background-color: #f8f8f8;
-    }
-
-    .content-section-b {
-        padding: 50px 0;
-        border-top: 1px solid #e7e7e7;
-        border-bottom: 1px solid #e7e7e7;
-    }
-
-    .section-heading {
-        margin-bottom: 30px;
-    }
-
-    .section-heading-spacer {
-        float: left;
-        width: 200px;
-        border-top: 3px solid #e7e7e7;
-    }
-
-    .banner {
-        padding: 100px 0;
-        color: #f8f8f8;
-        background: url(../img/banner-bg.jpg) no-repeat center center;
-        background-size: cover;
-    }
-
-    .banner h2 {
-        margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-        font-size: 3em;
-    }
-
-    .banner ul {
-        margin-bottom: 0;
-    }
-
-    .banner-social-buttons {
-        float: right;
-        margin-top: 0;
-    }
-
-    @media(max-width:1199px) {
-        ul.banner-social-buttons {
-            float: left;
-            margin-top: 15px;
-        }
-    }
-
-    @media(max-width:767px) {
-        .banner h2 {
-            margin: 0;
-            text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-            font-size: 3em;
-        }
-
-        ul.banner-social-buttons > li {
-            display: block;
-            margin-bottom: 20px;
-            padding: 0;
-        }
-
-        ul.banner-social-buttons > li:last-child {
-            margin-bottom: 0;
-        }
-    }
-
-    footer {
-        padding: 50px 0;
-        text-align: center;
-        
-    }
-
-    p.copyright {
-        margin: 15px 0 0;
-    }
-    .row {
-      margin-right: -15px;
-      margin-left: -15px;
-    }
-    .projectRow1{
-      padding-top: 80px;
-    }
-
-    .projectRow1 img{
-      text-align: center;
-    }
-
-    .projectRow1 p{
-
-      font-size: 15px;
-    }
-    .projectRow2{
-      text-align: center;
-      padding-top: 80px;
-    }
-    .skills{
-      height: 150px;
-    }
-    .contacts{
-      
-      background-color: #f8f8f8;
-      padding: 50px 0;
-      border-bottom: 1px solid #e7e7e7;
-      
-    }
-
-    .contacts p{
-      font-size: 16px;
-      text-decoration: none;
-
-    }
-
-    .contacts p:hover{
-
-      color: #f63;
-    }
-    .contacts a:hover{
-
-      text-decoration: none;
-    }
-    .contact p{
-
-      font-family: Lato;
-      font-size: 16px;
-      text-align: center;
-      padding: 60px;
-    }
-
-    .footer{
-      height: 100px;
-      font-family: Lato;
-      font-size: 16px;
-      text-align: center;
-      margin-top : 80px;
-    }
-    #projectContent{
-      padding-left: 150px;
-      margin-top : 40px;
-    }
-
-    .projectButton{
-
-      width: 120px;
-      height: 40px;
-      border: solid 3px #f93;
-      margin-top: 20px;
-      text-align: center;
-      padding-top: 5px;
-      font-size: 16px;
-      box-shadow: 1px 1px 3px #888888;
-    }
-
-    #row1{
-      border: 1px solid #DBE0E6;
-      height: 400px;
-      background-color: white;
-      margin-top : 50px;
-      box-shadow: 1px 1px 3px #eee;
-    }
-
-    </style>
-   
   </head>
   <body>
-    <!-- Nav Bar 
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-         <a class="navbar-brand" href="#">Rohini Mohandoss</a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="hidden active">
-            <a href="#page-top"></a>
-          </li>
-          <li class="">
-            <a class="page-scroll" href="#about">HOME</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#portfolio">PROJECTS</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#contact">RESUME</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#contact">CONTACT</a>
-          </li>
-        </ul>
-      </div>
-      </div>
-    </nav> --> 
-
+   
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
         <div class="container topnav">
@@ -349,10 +49,7 @@
                         <a href="index.html">HOME</a>
                     </li>
                     <li>
-                        <a href="#projects">PROJECTS</a>
-                    </li>
-                    <li>
-                        <a href="#services">RESUME</a>
+                        <a href="#projects">MY WORK</a>
                     </li>
                     <li>
                         <a href="#contact">CONTACT</a>
@@ -419,10 +116,10 @@
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                              <li>
-                                <a href="mailto:mrohini07@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> Email</a>
+                                <a href="mailto:mrohini07@gmail.com" class="btn btn-default btn-lg" target="_blank"><i class="glyphicon glyphicon-envelope"></i> Email</a>
                             </li>
                             <li>
-                                <a href="ttp://www.linkedin.com/pub/rohini-mohandoss/94/b3b/477" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i>Linkedin</a>
+                                <a href="http://www.linkedin.com/pub/rohini-mohandoss/94/b3b/477" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i>Linkedin</a>
                             </li>
                         </ul>
                     </div>
@@ -435,6 +132,29 @@
 
     
     <!-- End of header-->
+
+    <!-- Intro section -->
+
+    <div class="content-section-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-sm-6">
+            <img width="60%" class="img-responsive" src="images/Rohini.png">
+          </div>
+          <div class="col-lg-5">
+            <h2 class="section-heading"><span style="color: white;">Hello!</span></h2>
+          </div>
+
+          <div class="col-lg-6">
+            <p style="color:white;">I am a passionate UX Designer with a background in web design / development who aims at invoking user delight, and brings method to madness by designing functional and creative UX. In my free time, I enjoy spending time with family, traveling and hiking.</p>
+            <a href="about.html"><div style="color: white;" class="projectButton">Read more about me</div></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- End Intro section -->
 
     <div class="content-section-a" id="projects">
 
@@ -486,25 +206,43 @@
 
     <!-- Email and LinkedIn -->
     
-    <div class="contacts">
+    <div class="contacts" id="contact">
       <div class="container">
         <div class="row">
-        
-        <div class="col-md-6 text-center">
-          <a href="mailto:mrohini07@gmail.com">
-            <img src="images/EmailOrange.png">
-            <p>mrohini07@gmail.com</p>
-          </a> 
+          <div class="col-md-6 col-md-offset-3 text-center">
+                    <h2>Contact</h2>
+                    
+                </div>
+          <div class="col-md-4 col-md-offset-4">
+             <hr style="border: solid 1px #ff9857; margin-top: 0; margin-bottom: 40px;">
+          </div>
         </div>
-        <div class="col-md-6 text-center">
-          <a href="http://www.linkedin.com/pub/rohini-mohandoss/94/b3b/477" target="_blank">
-            <img src="images/linkedOrange.png">
-            <p>LinkedIn</p>
-            </a>
-        </div>
-       </div> 
+        <div class="row">
+          <div class="col-md-8 col-md-offset-4">
+            <ul class="list-inline">
+              <li><a href="mailto:mrohini07@gmail.com" class="btn btn-info btn-lg" target="_blank"><span class="glyphicon glyphicon-envelope"></span> &nbsp;Email </a></li>
+              <li> <a href="http://www.linkedin.com/pub/rohini-mohandoss/94/b3b/477" class="btn btn-info btn-lg" target="_blank"><i class="fa fa-linkedin"></i> &nbsp;Linkedin</a></li>
+              <li> <a href="Rohini-Resume-V2.pdf" target="_blank" class="btn btn-info btn-lg"><i class="fa fa-graduation-cap"></i> &nbsp;Resume</a></li>
+            </ul>
+        </div> 
       </div>
       </div>
+<!--
+      <div class="col-md-8 col-md-offset-2 text-center">
+                    <p class="lead">You can contact me by E-mail or connect with me on Social Networks.</p>
+                    <br>
+                    <ul class="list-inline">
+                        <li><a href="mailto:andresmeraldo@gmail.com" target="_blank"><i class="fa fa-envelope fa-3x"></i></a>
+                        </li>
+                        <li><a href="http://pt.linkedin.com/in/andrecaguiar" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/andresmeraldo" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
+                        </li>
+                        <li><a href="http://www.youtube.com/user/Afr1c4n0" target="_blank"><i class="fa fa-youtube fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <br>
+                </div> -->
  
       
    <!-- Footer -->
@@ -518,22 +256,20 @@
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#about">Projects</a>
+                            <a href="#projects">My Work</a>
                         </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#services">Resume</a>
-                        </li>
+                        
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; 2017 - Rohini Mohandoss</p>
+                    <span class="copyright text-muted small">Copyright &copy; 2017 - Rohini Mohandoss</span>
                 </div>
             </div>
         </div>
     </footer> 
+     
    <!-- End Email and LinkedIn -->
    <!-- End Footer -->
   </body>
