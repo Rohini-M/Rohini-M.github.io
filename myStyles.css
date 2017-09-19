@@ -503,7 +503,7 @@
     background-color: : #f63;
     margin-top: 40px;
     
-    border: 2px solid #ccc;
+    /*border: 2px solid #ccc;*/
 }
 .carousel .item img{
     margin: 0 auto; /* Align slide image horizontally center */
