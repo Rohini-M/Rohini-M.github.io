@@ -32,86 +32,7 @@
     <!-- Latest compiled and minified JavaScript -->
 
     <link rel="stylesheet" type="text/css" href="https://www.mrohini.com/myStyles.css">
-  </head>
-<style>
-
-/*
-body {
-
-	background-image: url('grunge_patterns.jpg');
-	background-attachment: fixed;
-	color: #333;
-}
-*/
-
-.box {
-	border-radius: 3px;
-	background: rgba(101, 101, 101, 0.7); 
-    margin: auto; padding: 12px;
-}
-
-.lightbox {
-	zoom: 1.5;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-/*	background: rgba(10, 10, 10, 0.8);*/
-	text-align: center;
-	margin: auto;
-
-}
-
-div.horizontal {
-	display: flex;
-	justify-content: center;
-	height: 100%;
-}
-
-div.vertical {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 100%;
-}
-
-::-webkit-input-placeholder {
-   color: #f63;
-   text-align: center;
-}
-
-::-moz-placeholder {
-   color: #f63;
-   text-align: center;
-}
-
-:-ms-input-placeholder {
-   color: #f63;
-   text-align: center;
-}
-textarea:focus, input:focus{
-    outline-color: #f63;
-}
-</style>
-
-<body>
-
-	<div id="loginbox" class="lightbox" >
-		<div class="horizontal">
-			<div class="vertical">
-				<div class="box">
-					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password" /> <br />
-					<button id="loginbutton" class="btn btn-info btn-lg" type="button">Enter</button>
-					<p id="wrongPassword" style="display: none">wrong password</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 
 
 	 <script type="text/javascript" src="https://rawcdn.githack.com/chrisveness/crypto/7067ee62f18c76dd4a9d372a00e647205460b62b/sha1.js"></script>
@@ -159,6 +80,136 @@ textarea:focus, input:focus{
 	$("#password").focus();
 
 	</script>
+  </head>
+<style>
 
+/*
+body {
+
+	background-image: url('grunge_patterns.jpg');
+	background-attachment: fixed;
+	color: #333;
+}
+*/
+
+.box {
+	border-radius: 3px;
+	background: rgba(101, 101, 101, 0.7); 
+    margin: auto; padding: 12px;
+}
+
+.lightbox {
+	zoom: 1.5;
+/*	position: fixed;*/
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+/*	background: rgba(10, 10, 10, 0.8);*/
+	text-align: center;
+	margin: auto;
+
+}
+
+
+div.horizontal {
+/*	display: flex;*/
+	justify-content: center;
+	height: 100%;
+}
+
+div.vertical {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
+
+::-webkit-input-placeholder {
+   color: #f63;
+   text-align: center;
+}
+
+::-moz-placeholder {
+   color: #f63;
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   color: #f63;
+   text-align: center;
+}
+textarea:focus, input:focus{
+    outline-color: #f63;
+}
+</style>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="https://www.mrohini.com/index.html">Rohini Mohandoss</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="https://www.mrohini.com/index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="https://www.mrohini.com/index.html#projects">MY WORK</a>
+                    </li>
+                    <li>
+                        <a href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>      
+   <div class="projectHeader">
+	<div id="loginbox" class="lightbox" >
+		<div class="horizontal">
+			<div class="vertical">
+				<div class="box">
+					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password" /> <br />
+					<button id="loginbutton" class="btn btn-info btn-lg" type="button">Enter</button>
+					<p id="wrongPassword" style="display: none">wrong password</p>
+				</div>
+			</div>
+		</div>
+	</div>
+    </div>
+ <div class="contacts" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <h2>Contact</h2>
+          </div>
+          <div class="col-md-4 col-md-offset-4">
+             <hr style="border: solid 1px #ff9857; margin-top: 0; margin-bottom: 40px;">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-md-offset-4">
+            <ul class="list-inline">
+              <li><a href="mailto:mrohini07@gmail.com" class="btn btn-info btn-lg" target="_blank"><span class="glyphicon glyphicon-envelope"></span> &nbsp;Email </a></li>
+              <li> <a href="http://www.linkedin.com/pub/rohini-mohandoss/94/b3b/477" class="btn btn-info btn-lg" target="_blank"><i class="fa fa-linkedin"></i> &nbsp;Linkedin</a></li>
+              <li> <a target="_blank" href="http://www.mrohini.com/images/Rohini-Resume.pdf" class="btn btn-info btn-lg"><i class="fa fa-graduation-cap"></i> &nbsp;Resume</a></li>
+            </ul>
+        </div> 
+      </div>
+      </div>
+      </div>
 </body>
 </html>
