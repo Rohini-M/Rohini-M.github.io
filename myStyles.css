@@ -542,6 +542,9 @@
   
 }
 
+.btn-info:active{
+  background-color: #666;  
+}
 .aboutMe{
   padding:100px;
 }
